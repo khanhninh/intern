@@ -307,6 +307,7 @@ theme(plot.title = element_text(hjust=0, size=12),
       axis.text = element_text(size = 12))
 dev.off() 
 
+
   
 plot_lst[[2]] <- ggplot(mydata1, aes(criterion, percentage1)) +
   geom_bar(stat = "identity", aes(fill = nb), position = "dodge", width = 0.5)+
